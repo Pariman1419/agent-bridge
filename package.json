@@ -1,0 +1,19 @@
+{
+  "name": "agent-bridge",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP Server & Shared Skill connecting Claude Code, OpenAI Codex, and Google Antigravity (AGY).",
+  "type": "module",
+  "main": "bridge.mjs",
+  "bin": {
+    "agent-bridge": "./bridge.mjs"
+  },
+  "scripts": {
+    "setup": "node install.mjs",
+    "test": "node bridge.mjs --self-test",
+    "status": "node bridge.mjs status"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
